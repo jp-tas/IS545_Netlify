@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 580" role="img" aria-labelledby="title description">
+  <title id="title">A bicycle by the Long Beach shoreline</title>
+  <desc id="description">A coral-red beach cruiser rests beside the ocean. A golden sun, gentle waves, and a palm tree complete the coastal scene.</desc>
+  <defs>
+    <clipPath id="scene">
+      <rect x="24" y="24" width="672" height="532" rx="28"/>
+    </clipPath>
+    <g id="wheel">
+      <circle r="88" fill="#f7f3eb" stroke="#254e50" stroke-width="13"/>
+      <circle r="76" fill="none" stroke="#eddbb9" stroke-width="3"/>
+      <g stroke="#254e50" stroke-width="1.5" opacity=".34">
+        <path d="M-74 0H74M0-74V74M-52-52 52 52M-52 52 52-52M-68-28 68 28M-28-68 28 68M-68 28 68-28M-28 68 28-68"/>
+      </g>
+      <circle r="7" fill="#254e50"/>
+    </g>
+  </defs>
+
+  <g clip-path="url(#scene)">
+    <path fill="#cde4e9" d="M24 24h672v532H24z"/>
+    <circle cx="501" cy="148" r="65" fill="#e7ad52"/>
+    <path d="M24 236h672v161H24z" fill="#a9cdd2"/>
+    <path d="M24 235h672" stroke="#254e50" stroke-width="2" opacity=".35"/>
+    <path d="M24 331c116-21 200-15 308 9s229 35 364 11v205H24z" fill="#eddbb9"/>
+    <path d="M24 367c100-20 190-17 302 5s244 41 370 16v168H24z" fill="#f7f3eb"/>
+    <g fill="none" stroke="#f7f3eb" stroke-width="3" stroke-linecap="round" opacity=".7">
+      <path d="M49 276h94m21 0h39m245-13h71m29 0h35M62 305h42m18 0h73m368-10h82"/>
+      <path d="M393 302h48m51 17h39m73 0h38"/>
+    </g>
+    <g fill="none" stroke="#254e50" stroke-linecap="round">
+      <path d="M125 166q12-11 24 0 12-11 24 0" stroke-width="3"/>
+      <path d="M206 125q8-8 16 0 8-8 16 0" stroke-width="2.5"/>
+    </g>
+
+    <g fill="#254e50">
+      <path d="M646 403c-12-77-13-153 0-228l10 1c-9 83-8 155 4 227z"/>
+      <path d="M650 182c-29-31-65-35-91-16 36-6 64 2 91 16z"/>
+      <path d="M650 182c-5-41-25-65-56-70 24 22 42 47 56 70z"/>
+      <path d="M650 182c7-36 26-59 57-64-19 24-38 44-57 64z"/>
+      <path d="M650 182c33-21 61-17 80 10-31-10-55-14-80-10z"/>
+      <path d="M650 182c-36-5-60 11-68 44 24-24 43-36 68-44z"/>
+      <path d="M650 182c25 6 40 27 36 55-10-24-21-41-36-55z"/>
+    </g>
+
+    <ellipse cx="356" cy="491" rx="254" ry="17" fill="#eddbb9"/>
+    <use href="#wheel" x="220" y="397"/>
+    <use href="#wheel" x="506" y="397"/>
+
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M142 349a89 89 0 0 1 151-18M437 341a89 89 0 0 1 145 12" stroke="#eddbb9" stroke-width="9"/>
+      <path d="M220 397 341 403 291 292 220 397M291 292 460 309 341 403" stroke="#d9533f" stroke-width="12"/>
+      <path d="m455 294 12 30 39 73" stroke="#d9533f" stroke-width="12"/>
+      <path d="m292 293-8-22" stroke="#254e50" stroke-width="8"/>
+      <path d="m455 294-12-36q-3-9 7-11l32-7" stroke="#254e50" stroke-width="8"/>
+      <path d="m478 241 18-4" stroke="#254e50" stroke-width="12"/>
+      <path d="M215 390h122a13 13 0 0 1 0 26l-122-12a7 7 0 0 1 0-14z" stroke="#254e50" stroke-width="3"/>
+      <path d="M341 403 361 423h15M341 403 325 381h-14" stroke="#254e50" stroke-width="5"/>
+    </g>
+    <path d="M264 265c8-5 23-6 37-3l13 4c5 2 4 8-2 8h-41c-8 0-12-5-7-9z" fill="#254e50"/>
+    <circle cx="341" cy="403" r="12" fill="#eddbb9" stroke="#254e50" stroke-width="4"/>
+    <circle cx="341" cy="403" r="4" fill="#254e50"/>
+    <g stroke="#254e50" stroke-width="5" stroke-linecap="round">
+      <path d="M368 424h14M305 380h14"/>
+    </g>
+    <path d="M77 468h33m-11 14h16m448 29h36" stroke="#e7ad52" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

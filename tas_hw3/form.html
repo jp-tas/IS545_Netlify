@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jean-Pierre Tas - Rental Inquiry</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Rental inquiry</h2>
+  <p><a href="index.html">Back to the company page</a></p>
+  <p>This is a sample form for our fictional company. No booking is made.</p>
+
+  <!-- Prevent submission: this homework only requires a display form. -->
+  <form onsubmit="return false;">
+    <h4>Your details</h4>
+    <p>
+      <label for="full-name">Full name:</label><br>
+      <input type="text" id="full-name" name="full-name">
+    </p>
+    <p>
+      <label for="password">Sample password:</label><br>
+      <input type="password" id="password" name="password" autocomplete="new-password">
+    </p>
+
+    <fieldset>
+      <legend>Ride type</legend>
+      <label><input type="radio" name="ride-type" value="coastal" checked> Coastal cruise</label><br>
+      <label><input type="radio" name="ride-type" value="city"> City tour</label><br>
+      <label><input type="radio" name="ride-type" value="family"> Family outing</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Optional extras</legend>
+      <label><input type="checkbox" name="extras" value="basket"> Basket</label><br>
+      <label><input type="checkbox" name="extras" value="child-seat"> Child seat</label>
+    </fieldset>
+
+    <p>
+      <label for="bikes">Choose one or more bikes:</label><br>
+      <select id="bikes" name="bikes" multiple size="4">
+        <option value="cruiser">Coast Cruiser</option>
+        <option value="hybrid">City Hybrid</option>
+        <option value="electric">Electric Cruiser</option>
+        <option value="tandem">Tandem</option>
+      </select><br>
+      Hold Command (Mac) or Ctrl (Windows) to select several bikes.
+    </p>
+    <p>
+      <label for="ride-date">Rental date (required):</label><br>
+      <input type="date" id="ride-date" name="ride-date" required>
+    </p>
+    <input type="submit" value="Submit inquiry">
+  </form>
+</body>
+</html>
